@@ -103,9 +103,13 @@
 
 ### View Class
 
-- static async getInput(promptMessage) :
+- async getInput(promptMessage) :
   - 사용자로부터 입력을 비동기적으로 받는 메서드. 입력 프롬프트 메시지를 인자로 받음.
-- static printPosition(car) :
+- printPosition(car) :
   - 자동차의 현재 위치를 출력하는 메서드. Car 객체를 인자로 받음.
-- static printWinner(winners) :
+- printWinner(winners) :
   - 최종 우승자를 출력하는 메서드. 우승자 배열을 인자로 받음.
+- async getCarName()
+  - 사용자로부터 자동차의 이름을 입력받음. 이름은 쉼표(,)로 구분됨.
+- async getTryCount()
+  - 사용자로부터 시도할 횟수를 입력받음. 입력값이 숫자가 아니거나 0 이하이거나 소수일 경우, 에러를 발생시킴.
