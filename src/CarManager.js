@@ -1,4 +1,4 @@
-import Car from "../src/Car";
+import Car from "./Car.js";
 
 class CarManager {
   constructor() {
