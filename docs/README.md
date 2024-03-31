@@ -58,9 +58,16 @@
 
 ### App class
 
-- consturctor() : CarManager, GameManager, SyncAsyncManager 객체를 초기화.
+- constructor() : CarManager, GameManager, SyncAsyncManager 객체를 초기화.
 
-- play() : 게임을 실행하는 메서드. 사용자로부터 자동차 이름과 시도 횟수를 입력받아 게임을 실행하고, 우승자를 출력.
+- play() :
+  - try문을 사용해 예외처리
+  - StartGame.play() 호출
+
+### StartGame class
+
+- play() :
+  - 게임을 실행하는 메서드. 사용자로부터 자동차 이름과 시도 횟수를 입력받아 게임을 실행하고, 우승자를 출력.
 
 ## Model
 
