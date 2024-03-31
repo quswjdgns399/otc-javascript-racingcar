@@ -74,7 +74,7 @@
 
 ### CarManager Class
 
-- constructor(InsertManager) :
+- constructor() :
   - 입력받은 carName을 배열에 저장.
 - createCar(name) :
   - 입력받은 이름으로 자동차를 생성하는 메서드. 이름이 중복되거나, 5자를 초과하거나, 비어있는 경우 Error를 발생.
