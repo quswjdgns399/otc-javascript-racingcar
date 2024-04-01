@@ -14,7 +14,11 @@ class SyncAsyncManager {
     };
 
     this.playRound = async (cars) => {
-      const results = await Promise.all(cars.map((car) => this.playTurn(car)));
+      const results = [];
+      for (const car of cars) {
+        const result = await this.playTurn(car);
+        results.push(result);
+      }
       return results;
     };
   }
