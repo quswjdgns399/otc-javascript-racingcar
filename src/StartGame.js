@@ -1,5 +1,5 @@
 import View from "./View.js";
-import Console from "@woowacourse/mission-utils";
+import { Console } from "@woowacourse/mission-utils";
 
 class StartGame {
   constructor(carManager, gameManager, syncAsyncManager) {
